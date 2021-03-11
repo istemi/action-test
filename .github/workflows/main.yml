@@ -15,5 +15,5 @@ jobs:
     # Use the output from the `hello` step
     - name: Get variables
       run: |
-        echo ${{ steps.hello.outputs.time }} | wc -l
+        ${{ steps.hello.outputs.time }}
         ./run.sh
