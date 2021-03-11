@@ -16,5 +16,5 @@ jobs:
     - name: Get variables
       run: |
         export REACT_APP_DATA_DOG_CLIENT_APPLICATION_ID="11123"
-        ${{ steps.hello.outputs.time }}
+        echo ${{ steps.hello.outputs.time }} | wc -l
         ./run.sh
