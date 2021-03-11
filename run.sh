@@ -1,2 +1,3 @@
 #!/bin/sh -l
-echo "$key2"
+echo $REACT_APP_DATA_DOG_CLIENT_APPLICATION_ID
+echo $key2
