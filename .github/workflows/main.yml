@@ -14,4 +14,4 @@ jobs:
     - name: Get variables
       run: |
         ${{ steps.hello.outputs.time }}
-        echo $key
+        env
