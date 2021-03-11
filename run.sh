@@ -1,3 +1,5 @@
 #!/bin/sh -l
-echo $REACT_APP_DATA_DOG_CLIENT_APPLICATION_ID
-echo $key2
+echo "key2: $key2"
+echo "key: $key"
+echo "key3: $key3"
+printenv
